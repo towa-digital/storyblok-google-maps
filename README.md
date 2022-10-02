@@ -10,14 +10,17 @@ A Storyblok Google Maps custom Field. You can search for addresses via the googl
 
 - Partner Portal needed
 - Google Maps apiKey for Geocode api
+- [yarn]((https://yarnpkg.com/) Package manager
 
 ## Usage
 
-- create a custom storyblok Field (Partner Portal required). You can checkout how this can be done here:
+- create a custom storyblok Field (Partner Portal required) with the name `google-map-locations`. You can checkout how this can be done here:
   - https://www.storyblok.com/docs/plugins/plugin-create-a-new-plugin
-- copy the code from `src/Plugin.vue` into your field editor.
-- add `apiKey` as an option under `Input`on your custom field
+- run `yarn && yarn build` from projects root.
+- copy generated code of `dist/export.js` into your custom field editor.
+- add `apiKey` as an option under `Input` on your custom field
   ![options](images/options.jpg)
+- save & publish the custom field
 - Add the custom field on one of your spaces
 
 ## Developemnt Mode
