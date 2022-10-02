@@ -10,7 +10,7 @@ A Storyblok Google Maps custom Field. You can search for addresses via the googl
 
 - Partner Portal needed
 - Google Maps apiKey for Geocode api
-- [yarn]((https://yarnpkg.com/) Package manager
+- [yarn](https://yarnpkg.com/) Package manager
 
 ## Usage
 
