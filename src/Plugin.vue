@@ -47,7 +47,7 @@ export default {
     initWith() {
       return {
         // needs to be equal to your storyblok plugin name
-        plugin: 'google-maps-locations',
+        plugin: 'google-map-locations',
         lat: null,
         lng: null,
         image: null,
