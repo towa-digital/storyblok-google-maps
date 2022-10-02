@@ -113,51 +113,19 @@ export default {
 
 <style>
   /* gml == google maps location */
-  .gml {
-    --color-main: #00b3b0;
+  .gml .uk-list li:not(:last-of-type){
+    border-bottom: 1px solid rgba(0,0,0,0.25);
   }
-  .gml-accordion input, .gml-accordion textarea {
+  .gml .uk-list li {
     display: block;
-    width: 100%;
-    margin-bottom: 1rem;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
   }
-  .gml-accordion > li{
-    border-bottom: 1px solid #DDD;
-  }
-  .gml-accordion li > a {
-    transition: all 0.3s;
-  }
-  .gml-accordion li > a:hover {
-    background-color: var(--color-main);
-    color: white;
-  }
-  .gml-accordion > li:nth-child(even){
-    background-color: #EFEFEF;
-  }
-  .gml-accordion > li > div {
-    padding: 0.5rem;
-  }
-  .gml-accordion ul {
-    padding-left: 0;
-  }
-  .gml-accordion ul li {
-    padding: 0.25em 0.5em;
-  }
-  .gml-accordion ul li:hover {
+  .gml .uk-list li:hover {
     background-color: #00b3b0;
     color: white;
-    cursor: pointer;
   }
-  .gml-accordion__button {
-    display: flex;
-    justify-content: space-between;
-    font-size: 1rem;
-    padding: 1em 0.5em;
-  }
-  .gml-accordion__button:after {
-    content: '+';
-  }
-  .gml-accordion__button.open:after {
-    content: '-';
+  .gml .uk-list li:nth-child(2n):not(:hover) {
+    background-color: rgba(0,0,0,0.1);
   }
 </style>
