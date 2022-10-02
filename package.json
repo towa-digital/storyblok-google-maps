@@ -1,0 +1,49 @@
+{
+  "name": "storyblok-google-maps",
+  "description": "A Storyblok Google maps custom Field",
+  "author": {
+    "name": "Martin Welte",
+    "email": "martin.welte@towa.at",
+    "url": "https://www.towa-digital.com"
+  },
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "yarn run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.15.4",
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.1.1",
+    "@vue/cli-service": "^3.12.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.17.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
