@@ -1,6 +1,11 @@
 # Storyblok Google Maps Field type
 
-> A Storyblok Google Maps custom Field. You can search for addresses via the google maps geocoding API. If you click on one of the search results, latitude and longitude of the address will be added.
+A Storyblok Google Maps custom Field. You can search for addresses via the google maps geocoding API. If you click on one of the search results, latitude and longitude of the address will be added.
+
+## Preview
+
+![storyblok google maps field type preview](images/fieldtype-preview.jpg)
+
 ## Prerequisits
 
 - Partner Portal needed
@@ -12,6 +17,7 @@
   - https://www.storyblok.com/docs/plugins/plugin-create-a-new-plugin
 - copy the code from `src/Plugin.vue` into your field editor.
 - add `apiKey` as an option under `Input`on your custom field
+  ![options](images/options.jpg)
 - Add the custom field on one of your spaces
 
 ## Developemnt Mode
